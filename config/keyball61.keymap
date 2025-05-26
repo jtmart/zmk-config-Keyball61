@@ -29,6 +29,8 @@
     quick-tap-ms = <150>;
 };
 
+ZMK_UNICODE_SINGLE{euro_sign, N2, N0, A, C};
+
 / {
     behaviors {
         HML: HML {
