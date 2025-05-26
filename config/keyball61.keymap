@@ -59,13 +59,32 @@ ZMK_UNICODE_SINGLE {
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Lang_1_EN {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <30 29>;
+        };
+
+        Lang_2_KR {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <17 18>;
+        };
+
+        Lang_3_HI {
+            bindings = <&kp LANGUAGE_3>;
+            key-positions = <5 6>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             label = "QWRT";
             bindings = <
-&HML ESCAPE GRAVE  &kp N1     &kp N2        &kp N3        &kp N4  &kp N5                                   &kp N6           &kp N7  &kp N8     &kp N9   &kp N0         &kp BSPC
+&HML ESCAPE GRAVE  &kp N1     &kp N2        &kp N3        &kp N4  &kp N5                                   &kp N6           &kp N7  &kp N8     &kp N9   &kp N0         &kp DELETE
 &kp TAB            &kp Q      &kp W         &kp E         &kp R   &kp T                                    &kp Y            &kp U   &kp I      &kp O    &kp P          &kp BACKSLASH
 &kp CAPS           &kp A      &kp S         &kp D         &kp F   &kp G                                    &kp H            &kp J   &kp K      &kp L    &kp SEMI       &kp SQT
 &kp LEFT_SHIFT     &kp Z      &kp X         &kp C         &kp V   &kp B        &kp PAGE_DOWN  &kp PAGE_UP  &kp N            &kp M   &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
