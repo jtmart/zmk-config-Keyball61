@@ -14,10 +14,10 @@ layers:
   - {t: '0', s: )}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
-  - R
+  - {t: Q, h: F2}
+  - {t: W, h: F11}
+  - {t: E, h: PRINTSCREEN}
+  - {t: R, h: '&Screenshot'}
   - {t: T, h: '&Open_terminal'}
   - Y
   - U
