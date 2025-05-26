@@ -134,8 +134,8 @@ layers:
   - ^
   - '&'
   - '*'
-  - (
-  - )
+  - {t: (, h: '-'}
+  - {t: ), h: +}
   - '&bl BL_ON'
   - MUTE
   - $$mdi:volume-low$$
