@@ -76,6 +76,21 @@ ZMK_UNICODE_SINGLE {
             bindings = <&kp LANGUAGE_3>;
             key-positions = <5 6>;
         };
+
+        Minus {
+            bindings = <&kp MINUS>;
+            key-positions = <1 2>;
+        };
+
+        Plus {
+            bindings = <&kp PLUS>;
+            key-positions = <3 4>;
+        };
+
+        Equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <7 8>;
+        };
     };
 
     keymap {
