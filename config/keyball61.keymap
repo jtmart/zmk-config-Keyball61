@@ -30,6 +30,7 @@
 };
 
 ZMK_UNICODE_SINGLE{euro_sign, N2, N0, A, C};
+ZMK_UNICODE_SINGLE{em_dash, E2, 80, 9, 4};
 
 / {
     behaviors {
