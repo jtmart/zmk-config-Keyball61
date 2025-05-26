@@ -208,11 +208,11 @@ ZMK_UNICODE_SINGLE {
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans    &trans    &trans  &trans     &trans                  &trans         &trans     &trans  &trans     &trans     &trans
-&trans  &trans    &trans    &trans  &trans     &trans                  &trans         &trans     &trans  &trans     &trans     &trans
-&trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans                  &kp PAGE_UP    &mkp LCLK  &trans  &mkp RCLK  &mkp MCLK  &trans
-&trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &kp PAGE_DOWN  &trans     &trans  &trans     &trans     &trans
-&trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &mo 3                                        &trans     &trans
+&trans        &trans     &trans    &trans  &trans     &trans                  &trans         &trans     &trans  &trans     &trans     &trans
+&trans        &trans     &trans    &trans  &trans     &trans                  &trans         &trans     &trans  &trans     &trans     &trans
+&kp UP_ARROW  &kp LEFT   &kp DOWN  &kp UP  &kp RIGHT  &trans                  &kp PAGE_UP    &mkp LCLK  &trans  &mkp RCLK  &mkp MCLK  &kp UP_ARROW
+&kp DOWN      &trans     &trans    &trans  &trans     &trans  &trans  &trans  &kp PAGE_DOWN  &trans     &trans  &trans     &trans     &kp DOWN
+&kp LEFT      &kp RIGHT  &trans    &trans  &trans     &trans  &trans  &trans  &mo 3                                        &kp LEFT   &kp RIGHT
             >;
         };
 
