@@ -449,3 +449,5 @@ combos:
   k: {t: '=', s: +}
 - p: [11, 10, 9]
   k: {t: '$$mdi:backup-restore$$', type: bootloader}
+- p: [0, 1, 2]
+  k: $$mdi:progress-download$$
