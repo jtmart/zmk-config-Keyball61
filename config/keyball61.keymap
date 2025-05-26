@@ -17,6 +17,9 @@
 #include <zmk-helpers/key-labels/glove80.h>
 #include <zmk-helpers/unicode-chars/french.dtsi>
 
+ZMK_UNICODE_SINGLE{euro_sign, N2, N0, A, C};
+ZMK_UNICODE_SINGLE{em_dash, E2, 80, 94};
+
 &lt {
     tapping-term-ms = <240>;
     flavor = "balanced";
