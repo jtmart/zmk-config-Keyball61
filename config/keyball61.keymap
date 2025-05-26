@@ -93,6 +93,21 @@ ZMK_UNICODE_SINGLE {
         };
     };
 
+    macros {
+        Open_terminal: Open_terminal {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LCTRL>,
+                <&macro_pause_for_release>,
+                <&kp LEFT_ALT>,
+                <&macro_pause_for_release>,
+                <&kp NUMBER_4>;
+
+            label = "OPEN_TERMINAL";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
