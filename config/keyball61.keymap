@@ -96,6 +96,11 @@ ZMK_UNICODE_SINGLE {
             bindings = <&sys_reset>;
             key-positions = <11 10 9>;
         };
+
+        Bootloader_mode {
+            bindings = <&bootloader>;
+            key-positions = <0 1 2>;
+        };
     };
 
     macros {
