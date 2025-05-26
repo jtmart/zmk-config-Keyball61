@@ -15,7 +15,7 @@
 
 #include <zmk-helpers/helper.h>
 #include <zmk-helpers/key-labels/glove80.h>
-#include <zmk-helpers/unicode-chars/german.dtsi>
+#include <zmk-helpers/unicode-chars/french.dtsi>
 
 &lt {
     tapping-term-ms = <240>;
