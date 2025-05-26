@@ -51,7 +51,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&em_dash'
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
@@ -63,7 +63,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:backspace-reverse-outline$$
   NUM:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&TD0'
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
