@@ -91,6 +91,11 @@ ZMK_UNICODE_SINGLE {
             bindings = <&kp EQUAL>;
             key-positions = <7 8>;
         };
+
+        System_reset {
+            bindings = <&sys_reset>;
+            key-positions = <11 10 9>;
+        };
     };
 
     macros {
