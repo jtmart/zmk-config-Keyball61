@@ -43,8 +43,8 @@ layers:
   - C
   - V
   - {t: B, h: '&Open_calibre'}
-  - {t: Sft+Gui+S, h: PgUp}
-  - PgUp
+  - {t: Sft+Gui+S, h: PgDn}
+  - {t: '&Open_browser', h: PgUp}
   - N
   - M
   - {t: ',', s: <}
