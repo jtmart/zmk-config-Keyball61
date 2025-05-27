@@ -146,6 +146,23 @@
 
             label = "SCREENSHOT";
         };
+
+        new_macro: em_dash {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LC(LSHFT)>,
+                <&macro_tap>,
+                <&kp U>,
+                <&macro_release>,
+                <&kp LC(LSHFT)>,
+                <&macro_tap>,
+                <&kp N2 &kp N0 &kp N1 &kp N4 &kp RET>;
+
+            label = "EM_DASH";
+        };
+
     };
 
     keymap {
