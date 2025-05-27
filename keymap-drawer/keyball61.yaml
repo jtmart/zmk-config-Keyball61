@@ -176,8 +176,8 @@ layers:
   - RGB COLOR HSB(222,100,50)
   - '&bl BL_DEC'
   - '&TD0'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - REWIND
+  - FAST FORWARD
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
