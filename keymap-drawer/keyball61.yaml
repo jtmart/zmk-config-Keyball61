@@ -451,3 +451,7 @@ combos:
   k: {t: '$$mdi:backup-restore$$', type: bootloader}
 - p: [0, 1, 2]
   k: $$mdi:progress-download$$
+- p: [23, 22, 21]
+  k: EP ON
+- p: [12, 13, 14]
+  k: EP OFF
