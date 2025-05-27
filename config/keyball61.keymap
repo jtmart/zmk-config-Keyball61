@@ -200,6 +200,9 @@
             >;
 
             label = "NUM";
+            sensor-bindings =
+                <&SCROLL_UP_DOWN>,
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         symbol_layer {
@@ -211,6 +214,8 @@
 &bt BT_CLR_ALL  &bt BT_DISC 0      &bt BT_DISC 1    &bt BT_DISC 2         &bt BT_DISC 3         &bt BT_DISC 4  &trans  &trans  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(53,100,59)  &rgb_ug RGB_COLOR_HSB(222,100,50)  &bl BL_DEC
 &TD0            &trans             &trans           &trans                &trans                &trans         &trans  &trans  &trans                                                                                               &rgb_ug RGB_COLOR_HSB(102,100,34)  &bl BL_CYCLE
             >;
+
+            sensor-bindings = <&SCROLL_UP_DOWN>;
         };
 
         function_layer {
@@ -222,6 +227,8 @@
 &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans   &trans   &trans   &trans  &trans  &trans  &trans                          &trans  &trans
             >;
+
+            sensor-bindings = <&SCROLL_UP_DOWN>;
         };
 
         mouse_layer {
@@ -233,6 +240,8 @@
 &kp DOWN      &trans     &trans    &trans  &trans     &trans  &trans  &trans  &kp PAGE_DOWN  &trans     &trans  &trans     &trans     &kp DOWN
 &kp LEFT      &kp RIGHT  &trans    &trans  &trans     &trans  &trans  &trans  &mo 3                                        &kp LEFT   &kp RIGHT
             >;
+
+            sensor-bindings = <&SCROLL_UP_DOWN>;
         };
 
         scroll_layer {
@@ -244,6 +253,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
             >;
+
+            sensor-bindings = <&SCROLL_UP_DOWN>;
         };
 
         snipe_layer {
@@ -255,6 +266,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
             >;
+
+            sensor-bindings = <&SCROLL_UP_DOWN>;
         };
     };
 };
