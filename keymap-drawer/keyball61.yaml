@@ -142,7 +142,7 @@ layers:
   - $$mdi:volume-high$$
   - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
-  - '&TD0'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '[', s: '{'}
@@ -169,11 +169,11 @@ layers:
   - {t: BT DISC, h: '4'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB EFF
+  - RGB EFR
+  - RGB COLOR HSB(0,100,50)
+  - RGB COLOR HSB(53,100,59)
+  - RGB COLOR HSB(222,100,50)
   - '&bl BL_DEC'
   - '&TD0'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -184,7 +184,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB COLOR HSB(102,100,34)
   - '&bl BL_CYCLE'
   FUN:
   - {t: '$$mdi:transfer$$', type: trans}
