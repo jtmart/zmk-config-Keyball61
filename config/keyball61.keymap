@@ -147,7 +147,7 @@
             label = "SCREENSHOT";
         };
 
-        new_macro: em_dash {
+        em_dash: em_dash {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
