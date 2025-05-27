@@ -42,8 +42,8 @@ layers:
   - X
   - C
   - V
-  - B
-  - PgDn
+  - {t: B, h: '&Open_calibre'}
+  - {t: Sft+Gui+S, h: PgUp}
   - PgUp
   - N
   - M
