@@ -63,6 +63,14 @@
             hold-trigger-key-positions = <0 12 24 36 50 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 42 50 51 52 53 54 55 56 57 58 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 42 50 51 52 53 54 55 56 57 58>;
         };
 
+        SCROLL_UP_DOWN: behavior_sensor_rotate_mouse_wheel_up_down {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
+            tap-ms = <20>;
+        };
+
         SCRS: SCRS {
             compatible = "zmk,behavior-hold-tap";
             label = "SCRS";
