@@ -83,6 +83,30 @@
             hold-trigger-key-positions = <0 12 24 36 50 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 42 50 51 52 53 54 55 56 57 58>;
             bindings = <&Screenshot>, <&kp>;
         };
+
+        CLBR: CLBR {
+            compatible = "zmk,behavior-hold-tap";
+            label = "CLBR";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <175>;
+            flavor = "tap-preferred";
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <0 12 24 36 50 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 42 50 51 52 53 54 55 56 57 58 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 42 50 51 52 53 54 55 56 57 58>;
+            bindings = <&Open_calibre>, <&kp>;
+        };
+
+        BRWSR: BRWSR {
+            compatible = "zmk,behavior-hold-tap";
+            label = "BRWSR";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <175>;
+            flavor = "tap-preferred";
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <0 12 24 36 50 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 42 50 51 52 53 54 55 56 57 58 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 42 50 51 52 53 54 55 56 57 58>;
+            bindings = <&kp>, <&kp>;
+        };
     };
 
     combos {
@@ -181,6 +205,32 @@
 
             label = "EM_DASH";
         };
+
+        Open_calibre: Open_calibre {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LCTRL>,
+                <&macro_press>,
+                <&kp LEFT_ALT>,
+                <&macro_press>,
+                <&kp C>;
+
+            label = "OPEN_CALIBRE";
+        };
+
+        Open_browser: Open_browser {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LCTRL>,
+                <&macro_press>,
+                <&kp LEFT_ALT>,
+                <&macro_press>,
+                <&kp B>;
+
+            label = "OPEN_BROWSER";
+        };
     };
 
     keymap {
@@ -189,11 +239,11 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&HML ESCAPE GRAVE  &kp N1     &kp N2        &kp N3              &kp N4     &kp N5                                   &kp N6           &kp N7  &kp N8     &kp N9   &kp N0         &kp DELETE
-&kp TAB            &HML F2 Q  &HML F11 W    &HML PRINTSCREEN E  &SCRS 0 R  &TRMNL 0 T                               &kp Y            &kp U   &kp I      &kp O    &kp P          &kp BACKSLASH
-&kp CAPS           &kp A      &kp S         &kp D               &kp F      &kp G                                    &kp H            &kp J   &kp K      &kp L    &kp SEMI       &kp SQT
-&kp LEFT_SHIFT     &kp Z      &kp X         &kp C               &kp V      &kp B        &kp PAGE_DOWN  &kp PAGE_UP  &kp N            &kp M   &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
-&em_dash           &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN        &mo 6      &lt 4 SPACE  &mo 5          &kp ENTER    &lt 2 BACKSPACE                              &kp RIGHT_ALT  &kp DELETE
+&HML ESCAPE GRAVE  &kp N1     &kp N2        &kp N3              &kp N4     &kp N5                                            &kp N6           &kp N7  &kp N8     &kp N9   &kp N0         &kp DELETE
+&kp TAB            &HML F2 Q  &HML F11 W    &HML PRINTSCREEN E  &SCRS 0 R  &TRMNL 0 T                                        &kp Y            &kp U   &kp I      &kp O    &kp P          &kp BACKSLASH
+&kp CAPS           &kp A      &kp S         &kp D               &kp F      &kp G                                             &kp H            &kp J   &kp K      &kp L    &kp SEMI       &kp SQT
+&kp LEFT_SHIFT     &kp Z      &kp X         &kp C               &kp V      &CLBR 0 B    &HML PAGE_UP LS(LG(S))  &kp PAGE_UP  &kp N            &kp M   &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
+&em_dash           &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN        &mo 6      &lt 4 SPACE  &mo 5                   &kp ENTER    &lt 2 BACKSPACE                              &kp RIGHT_ALT  &kp DELETE
             >;
 
             sensor-bindings =
