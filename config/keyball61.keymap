@@ -162,7 +162,6 @@
 
             label = "EM_DASH";
         };
-
     };
 
     keymap {
@@ -177,6 +176,8 @@
 &kp LEFT_SHIFT     &kp Z      &kp X         &kp C               &kp V      &kp B        &kp PAGE_DOWN  &kp PAGE_UP  &kp N            &kp M   &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
 &none              &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN        &mo 6      &lt 4 SPACE  &mo 5          &kp ENTER    &lt 2 BACKSPACE                              &kp RIGHT_ALT  &kp DELETE
             >;
+
+            sensor-bindings = <&inc_dec_kp 0 0>;
         };
 
         number_layer {
