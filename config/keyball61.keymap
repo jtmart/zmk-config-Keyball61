@@ -177,7 +177,9 @@
 &none              &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN        &mo 6      &lt 4 SPACE  &mo 5          &kp ENTER    &lt 2 BACKSPACE                              &kp RIGHT_ALT  &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp 0 0>;
+            sensor-bindings =
+                <&inc_dec_kp 0 0>,
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         number_layer {
