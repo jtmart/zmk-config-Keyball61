@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: keyball61}
 layers:
-  Colemak not QWRT:
+  QWRT not Colemak:
   - {t: '`', h: '$$mdi:keyboard-esc$$', s: '~'}
   - {t: '1', h: '&Open_calibre', s: '!'}
   - {t: '2', h: '$$mdi:brightness-7$$', s: '@'}
@@ -17,7 +17,7 @@ layers:
   - {t: Q, h: F2}
   - {t: W, h: F11}
   - {t: E, h: '&Open_browser'}
-  - R
+  - {t: R, h: '&Open_something'}
   - {t: T, h: '&Open_terminal'}
   - {t: Y, h: '-'}
   - {t: U, h: +}
