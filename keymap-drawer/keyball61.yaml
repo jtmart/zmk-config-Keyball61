@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: keyball61}
 layers:
-  QWRT:
+  Colemak not QWRT:
   - {t: '`', h: '$$mdi:keyboard-esc$$', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -16,26 +16,26 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: Q, h: F2}
   - {t: W, h: F11}
-  - {t: E, h: PRINTSCREEN}
-  - {t: R, h: '&Screenshot'}
-  - {t: T, h: '&Open_terminal'}
-  - Y
+  - {t: F, h: PRINTSCREEN}
+  - {t: P, h: '&Screenshot'}
+  - {t: G, h: '&Open_terminal'}
+  - J
+  - L
   - U
-  - I
-  - O
-  - P
+  - Y
+  - {t: ;, s: ':'}
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-caps$$
   - A
+  - R
   - S
+  - T
   - D
-  - F
-  - G
   - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
+  - N
+  - E
+  - I
+  - O
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -45,7 +45,7 @@ layers:
   - {t: B, h: '&Open_calibre'}
   - {t: Sft+Gui+S, h: PgDn}
   - {t: '&Open_browser', h: PgUp}
-  - N
+  - K
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
