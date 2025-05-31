@@ -2,7 +2,7 @@ layout: {zmk_keyboard: keyball61}
 layers:
   Colemak not QWRT:
   - {t: '`', h: '$$mdi:keyboard-esc$$', s: '~'}
-  - '1'
+  - {t: '1', h: '&Open_calibre', s: '!'}
   - {t: '2', h: '$$mdi:brightness-7$$', s: '@'}
   - {t: '3', h: '$$mdi:brightness-5$$', s: '#'}
   - {t: '4', s: $}
@@ -16,7 +16,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: Q, h: F2}
   - {t: W, h: F11}
-  - {t: E, h: '&Open_calibre'}
+  - {t: E, h: '&Open_browser'}
   - R
   - {t: T, h: '&Open_terminal'}
   - {t: Y, h: '-'}
@@ -42,9 +42,9 @@ layers:
   - X
   - C
   - V
-  - {t: B, h: '&Open_calibre'}
+  - B
   - {t: Sft+Gui+S, h: PgDn}
-  - {t: '&Open_browser', h: PgUp}
+  - PgUp
   - {t: N, h: '{'}
   - {t: M, h: '}'}
   - {t: ',', s: <}
