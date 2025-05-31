@@ -16,9 +16,9 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: Q, h: F2}
   - {t: W, h: F11}
-  - {t: F, h: PRINTSCREEN}
-  - {t: P, h: '&Screenshot'}
-  - {t: G, h: '&Open_terminal'}
+  - {t: F, h: '&Screenshot'}
+  - {t: P, h: PRINTSCREEN}
+  - G
   - J
   - L
   - U
@@ -29,7 +29,7 @@ layers:
   - A
   - R
   - S
-  - T
+  - {t: T, h: '&Open_terminal'}
   - D
   - H
   - N
