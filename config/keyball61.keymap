@@ -240,7 +240,32 @@
 
         Power_off {
             bindings = <&ext_power EP_OFF>;
-            key-positions = <21 22 23>;
+            key-positions = <33 34 35>;
+        };
+
+        Bluetooth1 {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <0 1 2>;
+        };
+
+        Bluetooth2 {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <12 13 14>;
+        };
+
+        Bluetooth3 {
+            bindings = <&bt BT_SEL 2>;
+            key-positions = <24 25 26>;
+        };
+
+        Bluetooth4 {
+            bindings = <&bt BT_SEL 3>;
+            key-positions = <36 37 38>;
+        };
+
+        Bluetooth5 {
+            bindings = <&bt BT_SEL 4>;
+            key-positions = <50 51 52>;
         };
     };
 
