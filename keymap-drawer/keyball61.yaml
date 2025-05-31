@@ -2,16 +2,16 @@ layout: {zmk_keyboard: keyball61}
 layers:
   Colemak not QWRT:
   - {t: '`', h: '$$mdi:keyboard-esc$$', s: '~'}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
+  - '1'
+  - {t: '2', h: '$$mdi:brightness-7$$', s: '@'}
+  - {t: '3', h: '$$mdi:brightness-5$$', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
+  - {t: '6', h: '&bl BL_DEC', s: ^}
+  - {t: '7', h: '&bl BL_INC', s: '&'}
+  - {t: '8', h: MUTE, s: '*'}
+  - {t: '$$mdi:volume-low$$', h: '9'}
+  - {t: '0', h: '$$mdi:volume-high$$', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: Q, h: F2}
