@@ -2,7 +2,7 @@ layout: {zmk_keyboard: keyball61}
 layers:
   QWRT not Colemak:
   - {t: '`', h: '$$mdi:keyboard-esc$$', s: '~'}
-  - {t: '1', h: '&Open_calibre', s: '!'}
+  - {t: '1', h: '~', s: '!'}
   - {t: '2', h: '$$mdi:brightness-7$$', s: '@'}
   - {t: '3', h: '$$mdi:brightness-5$$', s: '#'}
   - {t: '4', s: $}
@@ -24,10 +24,10 @@ layers:
   - I
   - O
   - {t: P, h: '&Pipe_operator'}
-  - {t: \, s: '|'}
+  - {t: \, h: Ins, s: '|'}
   - $$mdi:apple-keyboard-caps$$
   - A
-  - {t: S, h: PRINTSCREEN}
+  - {t: S, h: Sft+Gui+PRINTSCREEN}
   - D
   - F
   - G
@@ -35,22 +35,22 @@ layers:
   - {t: J, h: ']'}
   - K
   - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: ;, h: RGB OFF, s: ':'}
+  - {t: '''', h: RGB ON, s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
-  - C
+  - {t: C, h: '&Open_calibre'}
   - V
   - B
-  - {t: Sft+Gui+S, h: PgDn}
-  - {t: Sft+Gui+S, h: PgUp}
+  - {h: PgDn, s: '$$mdi:bluetooth-connect$$'}
+  - {h: PgUp, s: '$$mdi:bluetooth-connect$$'}
   - {t: N, h: '{'}
   - {t: M, h: '}'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: /, h: HOME, s: '?'}
+  - {t: AC HOME, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '&em_dash', h: '~'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
@@ -60,7 +60,7 @@ layers:
   - SCROLL
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: SYM}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:apple-keyboard-option$$', h: PLAY PAUSE}
   - $$mdi:backspace-reverse-outline$$
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
