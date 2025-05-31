@@ -12,7 +12,7 @@ layers:
   - {t: '8', h: MUTE, s: '*'}
   - {t: '$$mdi:volume-low$$', h: '9'}
   - {t: '0', h: '$$mdi:volume-high$$', s: )}
-  - {t: '$$mdi:backspace$$', h: SLEEP}
+  - {t: SLEEP, h: POWER}
   - $$mdi:keyboard-tab$$
   - {t: Q, h: F2}
   - {t: W, h: F11}
@@ -31,8 +31,8 @@ layers:
   - D
   - F
   - G
-  - H
-  - J
+  - {t: H, h: '['}
+  - {t: J, h: ']'}
   - K
   - L
   - {t: ;, s: ':'}
@@ -45,8 +45,8 @@ layers:
   - {t: B, h: '&Open_calibre'}
   - {t: Sft+Gui+S, h: PgDn}
   - {t: '&Open_browser', h: PgUp}
-  - N
-  - M
+  - {t: N, h: '{'}
+  - {t: M, h: '}'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
