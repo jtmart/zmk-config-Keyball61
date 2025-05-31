@@ -12,30 +12,30 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: Q, h: F2}
   - {t: W, h: F11}
-  - {t: F, h: '&Screenshot'}
-  - {t: P, h: PRINTSCREEN}
-  - G
-  - J
-  - L
-  - U
-  - Y
-  - {t: ;, s: ':'}
-  - {t: \, s: '|'}
-  - $$mdi:backspace-reverse-outline$$
-  - A
+  - {t: E, h: '&Open_calibre'}
   - R
-  - S
   - {t: T, h: '&Open_terminal'}
-  - D
-  - H
-  - N
-  - E
+  - Y
+  - U
   - I
   - O
+  - {t: P, h: '&Pipe_operator'}
+  - {t: \, s: '|'}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - A
+  - {t: S, h: PRINTSCREEN}
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -45,7 +45,7 @@ layers:
   - {t: B, h: '&Open_calibre'}
   - {t: Sft+Gui+S, h: PgDn}
   - {t: '&Open_browser', h: PgUp}
-  - K
+  - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
