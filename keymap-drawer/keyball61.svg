@@ -416,7 +416,9 @@ rect.held, rect.combo.held {
 <g transform="translate(700, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">I</text>
+<text x="0" y="-4" class="key tap">=</text>
+<text x="0" y="24" class="key hold">I</text>
+<text x="0" y="-24" class="key shifted">+</text>
 </g>
 <g transform="translate(756, 98)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -483,11 +485,13 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">K</text>
+<text x="0" y="24" class="key hold">{</text>
 </g>
 <g transform="translate(756, 154)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">L</text>
+<text x="0" y="24" class="key hold">}</text>
 </g>
 <g transform="translate(812, 168)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -550,13 +554,11 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">N</text>
-<text x="0" y="24" class="key hold">{</text>
 </g>
 <g transform="translate(644, 210)" class="key keypos-45">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">M</text>
-<text x="0" y="24" class="key hold">}</text>
 </g>
 <g transform="translate(700, 196)" class="key keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -674,46 +676,32 @@ rect.held, rect.combo.held {
 <tspan x="448" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="448" dy="1.2em" style="font-size: 75%">3</tspan>
 </text>
 </g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="98" y="36" width="28" height="26" class="combo"/>
-<text x="112" y="49" class="combo tap">-</text>
-<text x="112" y="38" class="combo shifted">_</text>
+<g class="combo bootloader combopos-3">
+<path d="M812,219 l-38,-6" class="combo"/>
+<path d="M812,219 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="206" width="28" height="26" class="combo bootloader"/>
+<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="803" y="210" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="210" y="22" width="28" height="26" class="combo"/>
-<text x="224" y="35" class="combo tap">+</text>
+<path d="M812,51 l-38,-6" class="combo"/>
+<path d="M812,51 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="803" y="42" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="658" y="22" width="28" height="26" class="combo"/>
-<text x="672" y="35" class="combo tap">=</text>
-<text x="672" y="24" class="combo shifted">+</text>
-</g>
-<g class="combo bootloader combopos-6">
-<path d="M812,51 l37,3" class="combo"/>
-<path d="M812,51 l-38,-6" class="combo"/>
-<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="803" y="42" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo combopos-7">
-<path d="M84,51 l-37,3" class="combo"/>
-<path d="M84,51 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="70" y="38" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="75" y="42" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-8">
-<path d="M812,107 l37,3" class="combo"/>
 <path d="M812,107 l-38,-6" class="combo"/>
+<path d="M812,107 l37,3" class="combo"/>
 <rect rx="6" ry="6" x="798" y="94" width="28" height="26" class="combo"/>
 <text x="812" y="107" class="combo tap">
 <tspan x="812" dy="-0.6em">EP</tspan><tspan x="812" dy="1.2em">ON</tspan>
 </text>
 </g>
-<g class="combo combopos-9">
-<path d="M84,107 l-37,3" class="combo"/>
-<path d="M84,107 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="70" y="94" width="28" height="26" class="combo"/>
-<text x="84" y="107" class="combo tap">
-<tspan x="84" dy="-0.6em">EP</tspan><tspan x="84" dy="1.2em">OFF</tspan>
+<g class="combo combopos-6">
+<path d="M812,107 l-38,-6" class="combo"/>
+<path d="M812,107 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="94" width="28" height="26" class="combo"/>
+<text x="812" y="107" class="combo tap">
+<tspan x="812" dy="-0.6em">EP</tspan><tspan x="812" dy="1.2em">OFF</tspan>
 </text>
 </g>
 </g>
@@ -1060,46 +1048,32 @@ rect.held, rect.combo.held {
 <tspan x="448" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="448" dy="1.2em" style="font-size: 75%">3</tspan>
 </text>
 </g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="98" y="36" width="28" height="26" class="combo"/>
-<text x="112" y="49" class="combo tap">-</text>
-<text x="112" y="38" class="combo shifted">_</text>
+<g class="combo bootloader combopos-3">
+<path d="M812,219 l-38,-6" class="combo"/>
+<path d="M812,219 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="206" width="28" height="26" class="combo bootloader"/>
+<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="803" y="210" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="210" y="22" width="28" height="26" class="combo"/>
-<text x="224" y="35" class="combo tap">+</text>
+<path d="M812,51 l-38,-6" class="combo"/>
+<path d="M812,51 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="803" y="42" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="658" y="22" width="28" height="26" class="combo"/>
-<text x="672" y="35" class="combo tap">=</text>
-<text x="672" y="24" class="combo shifted">+</text>
-</g>
-<g class="combo bootloader combopos-6">
-<path d="M812,51 l37,3" class="combo"/>
-<path d="M812,51 l-38,-6" class="combo"/>
-<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="803" y="42" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo combopos-7">
-<path d="M84,51 l-37,3" class="combo"/>
-<path d="M84,51 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="70" y="38" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="75" y="42" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-8">
-<path d="M812,107 l37,3" class="combo"/>
 <path d="M812,107 l-38,-6" class="combo"/>
+<path d="M812,107 l37,3" class="combo"/>
 <rect rx="6" ry="6" x="798" y="94" width="28" height="26" class="combo"/>
 <text x="812" y="107" class="combo tap">
 <tspan x="812" dy="-0.6em">EP</tspan><tspan x="812" dy="1.2em">ON</tspan>
 </text>
 </g>
-<g class="combo combopos-9">
-<path d="M84,107 l-37,3" class="combo"/>
-<path d="M84,107 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="70" y="94" width="28" height="26" class="combo"/>
-<text x="84" y="107" class="combo tap">
-<tspan x="84" dy="-0.6em">EP</tspan><tspan x="84" dy="1.2em">OFF</tspan>
+<g class="combo combopos-6">
+<path d="M812,107 l-38,-6" class="combo"/>
+<path d="M812,107 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="94" width="28" height="26" class="combo"/>
+<text x="812" y="107" class="combo tap">
+<tspan x="812" dy="-0.6em">EP</tspan><tspan x="812" dy="1.2em">OFF</tspan>
 </text>
 </g>
 </g>
@@ -1500,46 +1474,32 @@ rect.held, rect.combo.held {
 <tspan x="448" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="448" dy="1.2em" style="font-size: 75%">3</tspan>
 </text>
 </g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="98" y="36" width="28" height="26" class="combo"/>
-<text x="112" y="49" class="combo tap">-</text>
-<text x="112" y="38" class="combo shifted">_</text>
+<g class="combo bootloader combopos-3">
+<path d="M812,219 l-38,-6" class="combo"/>
+<path d="M812,219 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="206" width="28" height="26" class="combo bootloader"/>
+<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="803" y="210" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="210" y="22" width="28" height="26" class="combo"/>
-<text x="224" y="35" class="combo tap">+</text>
+<path d="M812,51 l-38,-6" class="combo"/>
+<path d="M812,51 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="803" y="42" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="658" y="22" width="28" height="26" class="combo"/>
-<text x="672" y="35" class="combo tap">=</text>
-<text x="672" y="24" class="combo shifted">+</text>
-</g>
-<g class="combo bootloader combopos-6">
-<path d="M812,51 l37,3" class="combo"/>
-<path d="M812,51 l-38,-6" class="combo"/>
-<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="803" y="42" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo combopos-7">
-<path d="M84,51 l-37,3" class="combo"/>
-<path d="M84,51 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="70" y="38" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="75" y="42" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-8">
-<path d="M812,107 l37,3" class="combo"/>
 <path d="M812,107 l-38,-6" class="combo"/>
+<path d="M812,107 l37,3" class="combo"/>
 <rect rx="6" ry="6" x="798" y="94" width="28" height="26" class="combo"/>
 <text x="812" y="107" class="combo tap">
 <tspan x="812" dy="-0.6em">EP</tspan><tspan x="812" dy="1.2em">ON</tspan>
 </text>
 </g>
-<g class="combo combopos-9">
-<path d="M84,107 l-37,3" class="combo"/>
-<path d="M84,107 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="70" y="94" width="28" height="26" class="combo"/>
-<text x="84" y="107" class="combo tap">
-<tspan x="84" dy="-0.6em">EP</tspan><tspan x="84" dy="1.2em">OFF</tspan>
+<g class="combo combopos-6">
+<path d="M812,107 l-38,-6" class="combo"/>
+<path d="M812,107 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="94" width="28" height="26" class="combo"/>
+<text x="812" y="107" class="combo tap">
+<tspan x="812" dy="-0.6em">EP</tspan><tspan x="812" dy="1.2em">OFF</tspan>
 </text>
 </g>
 </g>
@@ -1876,46 +1836,32 @@ rect.held, rect.combo.held {
 <tspan x="448" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="448" dy="1.2em" style="font-size: 75%">3</tspan>
 </text>
 </g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="98" y="36" width="28" height="26" class="combo"/>
-<text x="112" y="49" class="combo tap">-</text>
-<text x="112" y="38" class="combo shifted">_</text>
+<g class="combo bootloader combopos-3">
+<path d="M812,219 l-38,-6" class="combo"/>
+<path d="M812,219 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="206" width="28" height="26" class="combo bootloader"/>
+<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="803" y="210" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="210" y="22" width="28" height="26" class="combo"/>
-<text x="224" y="35" class="combo tap">+</text>
+<path d="M812,51 l-38,-6" class="combo"/>
+<path d="M812,51 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="803" y="42" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="658" y="22" width="28" height="26" class="combo"/>
-<text x="672" y="35" class="combo tap">=</text>
-<text x="672" y="24" class="combo shifted">+</text>
-</g>
-<g class="combo bootloader combopos-6">
-<path d="M812,51 l37,3" class="combo"/>
-<path d="M812,51 l-38,-6" class="combo"/>
-<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="803" y="42" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo combopos-7">
-<path d="M84,51 l-37,3" class="combo"/>
-<path d="M84,51 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="70" y="38" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="75" y="42" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-8">
-<path d="M812,107 l37,3" class="combo"/>
 <path d="M812,107 l-38,-6" class="combo"/>
+<path d="M812,107 l37,3" class="combo"/>
 <rect rx="6" ry="6" x="798" y="94" width="28" height="26" class="combo"/>
 <text x="812" y="107" class="combo tap">
 <tspan x="812" dy="-0.6em">EP</tspan><tspan x="812" dy="1.2em">ON</tspan>
 </text>
 </g>
-<g class="combo combopos-9">
-<path d="M84,107 l-37,3" class="combo"/>
-<path d="M84,107 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="70" y="94" width="28" height="26" class="combo"/>
-<text x="84" y="107" class="combo tap">
-<tspan x="84" dy="-0.6em">EP</tspan><tspan x="84" dy="1.2em">OFF</tspan>
+<g class="combo combopos-6">
+<path d="M812,107 l-38,-6" class="combo"/>
+<path d="M812,107 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="94" width="28" height="26" class="combo"/>
+<text x="812" y="107" class="combo tap">
+<tspan x="812" dy="-0.6em">EP</tspan><tspan x="812" dy="1.2em">OFF</tspan>
 </text>
 </g>
 </g>
@@ -2252,46 +2198,32 @@ rect.held, rect.combo.held {
 <tspan x="448" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="448" dy="1.2em" style="font-size: 75%">3</tspan>
 </text>
 </g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="98" y="36" width="28" height="26" class="combo"/>
-<text x="112" y="49" class="combo tap">-</text>
-<text x="112" y="38" class="combo shifted">_</text>
+<g class="combo bootloader combopos-3">
+<path d="M812,219 l-38,-6" class="combo"/>
+<path d="M812,219 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="206" width="28" height="26" class="combo bootloader"/>
+<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="803" y="210" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="210" y="22" width="28" height="26" class="combo"/>
-<text x="224" y="35" class="combo tap">+</text>
+<path d="M812,51 l-38,-6" class="combo"/>
+<path d="M812,51 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="803" y="42" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="658" y="22" width="28" height="26" class="combo"/>
-<text x="672" y="35" class="combo tap">=</text>
-<text x="672" y="24" class="combo shifted">+</text>
-</g>
-<g class="combo bootloader combopos-6">
-<path d="M812,51 l37,3" class="combo"/>
-<path d="M812,51 l-38,-6" class="combo"/>
-<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="803" y="42" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo combopos-7">
-<path d="M84,51 l-37,3" class="combo"/>
-<path d="M84,51 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="70" y="38" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="75" y="42" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-8">
-<path d="M812,107 l37,3" class="combo"/>
 <path d="M812,107 l-38,-6" class="combo"/>
+<path d="M812,107 l37,3" class="combo"/>
 <rect rx="6" ry="6" x="798" y="94" width="28" height="26" class="combo"/>
 <text x="812" y="107" class="combo tap">
 <tspan x="812" dy="-0.6em">EP</tspan><tspan x="812" dy="1.2em">ON</tspan>
 </text>
 </g>
-<g class="combo combopos-9">
-<path d="M84,107 l-37,3" class="combo"/>
-<path d="M84,107 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="70" y="94" width="28" height="26" class="combo"/>
-<text x="84" y="107" class="combo tap">
-<tspan x="84" dy="-0.6em">EP</tspan><tspan x="84" dy="1.2em">OFF</tspan>
+<g class="combo combopos-6">
+<path d="M812,107 l-38,-6" class="combo"/>
+<path d="M812,107 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="94" width="28" height="26" class="combo"/>
+<text x="812" y="107" class="combo tap">
+<tspan x="812" dy="-0.6em">EP</tspan><tspan x="812" dy="1.2em">OFF</tspan>
 </text>
 </g>
 </g>
@@ -2627,46 +2559,32 @@ rect.held, rect.combo.held {
 <tspan x="448" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="448" dy="1.2em" style="font-size: 75%">3</tspan>
 </text>
 </g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="98" y="36" width="28" height="26" class="combo"/>
-<text x="112" y="49" class="combo tap">-</text>
-<text x="112" y="38" class="combo shifted">_</text>
+<g class="combo bootloader combopos-3">
+<path d="M812,219 l-38,-6" class="combo"/>
+<path d="M812,219 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="206" width="28" height="26" class="combo bootloader"/>
+<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="803" y="210" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="210" y="22" width="28" height="26" class="combo"/>
-<text x="224" y="35" class="combo tap">+</text>
+<path d="M812,51 l-38,-6" class="combo"/>
+<path d="M812,51 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="803" y="42" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="658" y="22" width="28" height="26" class="combo"/>
-<text x="672" y="35" class="combo tap">=</text>
-<text x="672" y="24" class="combo shifted">+</text>
-</g>
-<g class="combo bootloader combopos-6">
-<path d="M812,51 l37,3" class="combo"/>
-<path d="M812,51 l-38,-6" class="combo"/>
-<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="803" y="42" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo combopos-7">
-<path d="M84,51 l-37,3" class="combo"/>
-<path d="M84,51 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="70" y="38" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="75" y="42" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-8">
-<path d="M812,107 l37,3" class="combo"/>
 <path d="M812,107 l-38,-6" class="combo"/>
+<path d="M812,107 l37,3" class="combo"/>
 <rect rx="6" ry="6" x="798" y="94" width="28" height="26" class="combo"/>
 <text x="812" y="107" class="combo tap">
 <tspan x="812" dy="-0.6em">EP</tspan><tspan x="812" dy="1.2em">ON</tspan>
 </text>
 </g>
-<g class="combo combopos-9">
-<path d="M84,107 l-37,3" class="combo"/>
-<path d="M84,107 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="70" y="94" width="28" height="26" class="combo"/>
-<text x="84" y="107" class="combo tap">
-<tspan x="84" dy="-0.6em">EP</tspan><tspan x="84" dy="1.2em">OFF</tspan>
+<g class="combo combopos-6">
+<path d="M812,107 l-38,-6" class="combo"/>
+<path d="M812,107 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="94" width="28" height="26" class="combo"/>
+<text x="812" y="107" class="combo tap">
+<tspan x="812" dy="-0.6em">EP</tspan><tspan x="812" dy="1.2em">OFF</tspan>
 </text>
 </g>
 </g>
@@ -3002,46 +2920,32 @@ rect.held, rect.combo.held {
 <tspan x="448" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="448" dy="1.2em" style="font-size: 75%">3</tspan>
 </text>
 </g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="98" y="36" width="28" height="26" class="combo"/>
-<text x="112" y="49" class="combo tap">-</text>
-<text x="112" y="38" class="combo shifted">_</text>
+<g class="combo bootloader combopos-3">
+<path d="M812,219 l-38,-6" class="combo"/>
+<path d="M812,219 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="206" width="28" height="26" class="combo bootloader"/>
+<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="803" y="210" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="210" y="22" width="28" height="26" class="combo"/>
-<text x="224" y="35" class="combo tap">+</text>
+<path d="M812,51 l-38,-6" class="combo"/>
+<path d="M812,51 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="803" y="42" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="658" y="22" width="28" height="26" class="combo"/>
-<text x="672" y="35" class="combo tap">=</text>
-<text x="672" y="24" class="combo shifted">+</text>
-</g>
-<g class="combo bootloader combopos-6">
-<path d="M812,51 l37,3" class="combo"/>
-<path d="M812,51 l-38,-6" class="combo"/>
-<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo bootloader"/>
-<use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="803" y="42" height="18" width="18.0" class="combo bootloader tap glyph mdi:backup-restore"/>
-</g>
-<g class="combo combopos-7">
-<path d="M84,51 l-37,3" class="combo"/>
-<path d="M84,51 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="70" y="38" width="28" height="26" class="combo"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="75" y="42" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
-</g>
-<g class="combo combopos-8">
-<path d="M812,107 l37,3" class="combo"/>
 <path d="M812,107 l-38,-6" class="combo"/>
+<path d="M812,107 l37,3" class="combo"/>
 <rect rx="6" ry="6" x="798" y="94" width="28" height="26" class="combo"/>
 <text x="812" y="107" class="combo tap">
 <tspan x="812" dy="-0.6em">EP</tspan><tspan x="812" dy="1.2em">ON</tspan>
 </text>
 </g>
-<g class="combo combopos-9">
-<path d="M84,107 l-37,3" class="combo"/>
-<path d="M84,107 l38,-6" class="combo"/>
-<rect rx="6" ry="6" x="70" y="94" width="28" height="26" class="combo"/>
-<text x="84" y="107" class="combo tap">
-<tspan x="84" dy="-0.6em">EP</tspan><tspan x="84" dy="1.2em">OFF</tspan>
+<g class="combo combopos-6">
+<path d="M812,107 l-38,-6" class="combo"/>
+<path d="M812,107 l37,3" class="combo"/>
+<rect rx="6" ry="6" x="798" y="94" width="28" height="26" class="combo"/>
+<text x="812" y="107" class="combo tap">
+<tspan x="812" dy="-0.6em">EP</tspan><tspan x="812" dy="1.2em">OFF</tspan>
 </text>
 </g>
 </g>
