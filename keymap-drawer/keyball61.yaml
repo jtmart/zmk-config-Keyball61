@@ -44,7 +44,7 @@ layers:
   - V
   - B
   - {t: Sft+Gui+S, h: PgDn}
-  - PgUp
+  - {t: Sft+Gui+S, h: PgUp}
   - {t: N, h: '{'}
   - {t: M, h: '}'}
   - {t: ',', s: <}
