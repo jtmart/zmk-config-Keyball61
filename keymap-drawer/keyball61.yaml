@@ -12,15 +12,15 @@ layers:
   - {t: '8', h: MUTE, s: '*'}
   - {t: '$$mdi:volume-low$$', h: '9'}
   - {t: '0', h: '$$mdi:volume-high$$', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: SLEEP}
   - $$mdi:keyboard-tab$$
   - {t: Q, h: F2}
   - {t: W, h: F11}
   - {t: E, h: '&Open_calibre'}
   - R
   - {t: T, h: '&Open_terminal'}
-  - Y
-  - U
+  - {t: Y, h: '-'}
+  - {t: U, h: +}
   - I
   - O
   - {t: P, h: '&Pipe_operator'}
