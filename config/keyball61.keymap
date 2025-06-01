@@ -452,6 +452,46 @@
             bindings = <&bt BT_NXT>;
             key-positions = <42 43>;
         };
+
+        Volume_down {
+            bindings = <&kp C_VOLUME_UP>;
+            key-positions = <42 41>;
+        };
+
+        Volume_up {
+            bindings = <&kp C_VOLUME_DOWN>;
+            key-positions = <43 44>;
+        };
+
+        Brighness_down {
+            bindings = <&kp C_BRIGHTNESS_DEC>;
+            key-positions = <42 41 40>;
+        };
+
+        Brightness_up {
+            bindings = <&kp C_BRIGHTNESS_INC>;
+            key-positions = <43 44 45>;
+        };
+
+        Backlit_down {
+            bindings = <&bl BL_DEC>;
+            key-positions = <39 40 41 42>;
+        };
+
+        Backlit_up {
+            bindings = <&bl BL_INC>;
+            key-positions = <43 44 45 46>;
+        };
+
+        Backlit_off {
+            bindings = <&bl BL_OFF>;
+            key-positions = <38 39 40 41 42>;
+        };
+
+        Backlit_on {
+            bindings = <&bl BL_ON>;
+            key-positions = <43 44 45 46 47>;
+        };
     };
 
     macros {
