@@ -2,56 +2,56 @@ layout: {zmk_keyboard: keyball61}
 layers:
   QWRT not Colemak:
   - {t: '`', h: '$$mdi:keyboard-esc$$', s: '~'}
-  - {t: '1', h: '~', s: '!'}
-  - {t: '2', h: '$$mdi:brightness-7$$', s: '@'}
-  - {t: '3', h: '$$mdi:brightness-5$$', s: '#'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: '6', h: '&bl BL_DEC', s: ^}
-  - {t: '7', h: '&bl BL_INC', s: '&'}
-  - {t: '8', h: MUTE, s: '*'}
-  - {t: '$$mdi:volume-low$$', h: '9'}
-  - {t: '0', h: '$$mdi:volume-high$$', s: )}
-  - {t: SLEEP, h: POWER}
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: Q, h: F2}
   - {t: W, h: F11}
-  - {t: E, h: '&Open_E_browser'}
-  - {t: R, h: '&Open_S_smthng'}
+  - {t: E, h: '&Open_C_cal'}
+  - R
   - {t: T, h: '&Open_terminal'}
-  - {t: Y, h: '-'}
-  - {t: U, h: +}
-  - {t: '=', h: I, s: +}
-  - {t: O, h: '&Open_O_smthng'}
+  - Y
+  - U
+  - I
+  - O
   - {t: P, h: '&Pipe_operator'}
-  - {t: \, h: Ins, s: '|'}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: AC HOME}
-  - {t: A, h: '&Open_A_smthng'}
-  - {t: S, h: Sft+Gui+PRINTSCREEN}
-  - {t: D, h: '&em_dash'}
-  - {t: F, h: '&Open_F_smthng'}
-  - {t: G, h: '&Open_G_smthng'}
-  - {t: H, h: '['}
-  - {t: J, h: ']'}
-  - {t: K, h: '{'}
-  - {t: L, h: '}'}
-  - {t: ;, h: RGB BRD, s: ':'}
-  - {t: '''', h: RGB BRD, s: '"'}
+  - {t: \, s: '|'}
+  - $$mdi:apple-keyboard-caps$$
+  - A
+  - {t: S, h: PRINTSCREEN}
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: Z, h: '&Open_Z_smthng'}
-  - {t: X, h: '&Open_X_smthng'}
-  - {t: C, h: '&Open_C_cal'}
-  - {t: V, h: '&Open_V_smthng'}
-  - {t: B, h: '&Open_B_smthng'}
-  - {h: PgDn, s: '$$mdi:bluetooth-connect$$'}
-  - {h: PgUp, s: '$$mdi:bluetooth-connect$$'}
-  - {t: N, h: '&Open_N_smthng'}
-  - {t: M, h: '&Open_M_smthng'}
+  - Z
+  - X
+  - C
+  - V
+  - {t: B, h: '&Open_C_cal'}
+  - {t: Sft+Gui+S, h: PgDn}
+  - {t: '0', h: '&Open_E_browser PAGE_UP'}
+  - N
+  - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, h: HOME, s: '?'}
-  - {t: RGB EFF, h: RGB EFR}
-  - {t: RGB ON, h: RGB OFF}
+  - {t: /, s: '?'}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '&em_dash', h: '~'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
@@ -60,7 +60,7 @@ layers:
   - SCROLL
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: SYM}
-  - {t: '$$mdi:apple-keyboard-option$$', h: PLAY PAUSE}
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:backspace-reverse-outline$$
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
