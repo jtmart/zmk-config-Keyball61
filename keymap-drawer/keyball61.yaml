@@ -35,8 +35,8 @@ layers:
   - {t: J, h: ']'}
   - {t: K, h: '{'}
   - {t: L, h: '}'}
-  - {t: ;, h: RGB BRD, s: ':'}
-  - {t: '''', h: RGB SAI, s: '"'}
+  - {t: ;, h: toggle, s: ':'}
+  - {t: '''', h: toggle, s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: '&Open_Z_smthng'}
   - {t: X, h: '&Open_X_smthng'}
