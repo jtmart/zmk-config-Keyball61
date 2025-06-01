@@ -399,6 +399,41 @@
             bindings = <&bt BT_SEL 4>;
             key-positions = <50 51 52>;
         };
+
+        Volume_down {
+            bindings = <&kp C_VOL_DN>;
+            key-positions = <41 42>;
+        };
+
+        Volume_up {
+            bindings = <&kp C_VOLUME_UP>;
+            key-positions = <43 44>;
+        };
+
+        Brightness_down {
+            bindings = <&kp C_BRIGHTNESS_DEC>;
+            key-positions = <41 42 40>;
+        };
+
+        Brightness_up {
+            bindings = <&kp C_BRIGHTNESS_INC>;
+            key-positions = <43 44 45>;
+        };
+
+        Backlight_down {
+            bindings = <&bl BL_DEC>;
+            key-positions = <39 40 41 42>;
+        };
+
+        Backlight_up {
+            bindings = <&bl BL_INC>;
+            key-positions = <43 44 45 46>;
+        };
+
+        Bluetooth_next {
+            bindings = <&bt BT_NXT>;
+            key-positions = <43 42>;
+        };
     };
 
     macros {
