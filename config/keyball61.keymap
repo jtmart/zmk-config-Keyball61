@@ -635,7 +635,6 @@
             bindings = <
 &HML ESCAPE GRAVE    &kp N1     &kp N2              &kp N3        &kp N4  &kp N5                                                   &kp N6           &kp N7  &kp N8     &kp N9   &kp N0              &kp BACKSPACE
 &kp TAB                  &HML F2 Q      &HML F11 W                  &BRWSR 0 E                &S_SMTHNG 0 R    &TRMNL 0 T                                                             &HML MINUS Y         &HML PLUS U           &HML I EQUAL       &O_SMTHNG 0 O          &PIPE_OPERATOR 0 P           &HML INSERT BACKSLASH
-&HML C_AC_HOME CAPSLOCK  &A_SMTHNG 0 A  &HML LS(LG(PRINTSCREEN)) S  &SH_EM_DASH_REV 0 D       &F_SMTHNG 0 F    &G_SMTHNG 0 
 &kp CAPSLOCK         &kp A      &HML PRINTSCREEN S  &kp D         &kp F   &kp G                                                    &kp H            &kp J   &kp K      &kp L    &kp SEMI            &kp SQT
 &kp LEFT_SHIFT       &kp Z      &kp X               &kp C         &kp V   &CLBR 0 B    &HML PAGE_DOWN LS(LG(S))  &BRWSR PAGE_UP 0  &kp N            &kp M   &kp COMMA  &kp DOT  &kp FSLH            &kp RIGHT_SHIFT
 &SH_EM_DASH TILDE 0  &kp LCTRL  &kp LEFT_ALT        &kp LEFT_WIN  &mo 6   &lt 4 SPACE  &mo 5                     &kp ENTER         &lt 2 BACKSPACE                              &kp RIGHT_ALT       &kp DELETE
