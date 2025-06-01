@@ -459,3 +459,5 @@ combos:
   k: {h: '4', s: '$$mdi:bluetooth-connect$$'}
 - p: [50, 51, 52]
   k: {h: '5', s: '$$mdi:bluetooth-connect$$'}
+- p: [42, 43]
+  k: {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
