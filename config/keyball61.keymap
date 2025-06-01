@@ -809,7 +809,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            label = "QWRT not Colemak";
+            label = "JT's QWRT";
             bindings = <
 &E_GRAVE 0 GRAVE     &HML F1 N1     &HML F2 N2        &HML F3 N3       &HML F4 N4     &HML F5 N5                                                              &HML F6 N6               &HML F7 N7            &HML F8 N8         &HML F9 N9          &HML PRINTSCREEN N0      &kp BACKSPACE
 &kp TAB              &HML F11 Q     &HML F12 W        &BRWSR 0 E       &R_SMTHNG 0 R  &TRMNL 0 T                                                              &HML MINUS Y             &HML PLUS U           &HML EQUAL I       &O_SMTHNG 0 O       &PIPE_OPERATOR 0 P       &HML C_BACKLIGHT_TOGGLE BACKSLASH
