@@ -36,7 +36,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: '''', h: '&E_aigu', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: '&Open_Z_smthng'}
   - {t: X, h: '&Open_X_smthng'}
