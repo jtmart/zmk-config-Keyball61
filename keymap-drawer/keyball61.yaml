@@ -38,12 +38,12 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - V
+  - {t: Z, h: '&Open_Z_smthng'}
+  - {t: X, h: '&Open_X_smthng'}
+  - {t: C, h: '&Open_C_cal'}
+  - {t: V, h: '&Open_V_smthng'}
   - {t: B, h: '&Open_C_cal'}
-  - {t: Sft+Gui+S, h: PgDn}
+  - {h: PgDn, s: '$$mdi:bluetooth-connect$$'}
   - {t: '0', h: '&Open_E_browser PAGE_UP'}
   - N
   - M
