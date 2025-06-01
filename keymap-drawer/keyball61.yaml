@@ -2,29 +2,29 @@ layout: {zmk_keyboard: keyball61}
 layers:
   QWRT not Colemak:
   - {t: '`', h: '$$mdi:keyboard-esc$$', s: '~'}
-  - {t: '1', h: '~', s: '!'}
-  - {t: '2', h: '$$mdi:brightness-7$$', s: '@'}
-  - {t: '3', h: '$$mdi:brightness-5$$', s: '#'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: '6', h: '&bl BL_DEC', s: ^}
-  - {t: '7', h: '&bl BL_INC', s: '&'}
-  - {t: '8', h: MUTE, s: '*'}
-  - {t: '$$mdi:volume-low$$', h: '9'}
-  - {t: '0', h: '$$mdi:volume-high$$', s: )}
-  - {t: SLEEP, h: POWER}
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: Q, h: F2}
   - {t: W, h: F11}
-  - {t: E, h: '&Open_C_cal'}
-  - R
+  - {t: E, h: '&Open_E_browser'}
+  - {t: R, h: '&Open_S_smthng'}
   - {t: T, h: '&Open_terminal'}
-  - Y
-  - U
-  - I
-  - O
+  - {t: Y, h: '-'}
+  - {t: U, h: +}
+  - {t: '=', h: I, s: +}
+  - {t: O, h: '&Open_O_smthng'}
   - {t: P, h: '&Pipe_operator'}
-  - {t: \, s: '|'}
+  - {t: \, h: Ins, s: '|'}
   - $$mdi:apple-keyboard-caps$$
   - A
   - {t: S, h: PRINTSCREEN}
