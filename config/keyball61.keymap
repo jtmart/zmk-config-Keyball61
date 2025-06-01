@@ -359,6 +359,18 @@
             hold-trigger-key-positions = <0 12 24 36 50 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 42 50 51 52 53 54 55 56 57 58 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 42 50 51 52 53 54 55 56 57 58 5 6 7 8 9 10 11 17 18 19 20 21 22 23 29 30 31 32 33 34 35 41 42 43 44 45 46 47 48 49 54 55 56 57 58 59 60>;
             bindings = <&A_circ>, <&A_grave>;
         };
+
+        E_AIGU: E_AIGU {
+            compatible = "zmk,behavior-hold-tap";
+            label = "E_AIGU";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <175>;
+            flavor = "tap-preferred";
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <0 12 24 36 50 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 42 50 51 52 53 54 55 56 57 58 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 42 50 51 52 53 54 55 56 57 58 5 6 7 8 9 10 11 17 18 19 20 21 22 23 29 30 31 32 33 34 35 41 42 43 44 45 46 47 48 49 54 55 56 57 58 59 60>;
+            bindings = <&E_aigu>, <&kp>;
+        };
     };
 
     combos {
@@ -736,7 +748,7 @@
             bindings = <
 &HML ESCAPE GRAVE    &kp N1         &kp N2              &kp N3        &kp N4         &kp N5                                                                &kp N6                   &kp N7        &kp N8             &kp N9           &kp N0              &kp BACKSPACE
 &kp TAB              &HML F2 Q      &HML F11 W          &BRWSR 0 E    &R_SMTHNG 0 R  &TRMNL 0 T                                                            &HML MINUS Y             &HML PLUS U   &HML EQUAL I       &O_SMTHNG 0 O    &PIPE_OPERATOR 0 P  &HML INS BACKSLASH
-&kp CAPSLOCK         &kp A          &HML PRINTSCREEN S  &kp D         &kp F          &kp G                                                                 &kp H                    &kp J         &kp K              &kp L            &kp SEMI            &kp SQT
+&kp CAPSLOCK         &kp A          &HML PRINTSCREEN S  &kp D         &kp F          &kp G                                                                 &kp H                    &kp J         &kp K              &kp L            &kp SEMI            &E_AIGU 0 SQT
 &kp LEFT_SHIFT       &Z_SMTHNG 0 Z  &X_SMTHNG 0 X       &CLBR 0 C     &V_SMTHNG 0 V  &CLBR 0 B    &HML PAGE_DOWN C_AL_WORD  &HML PAGE_UP C_AL_TEXT_EDITOR  &HML C_AL_SPREADSHEET N  &HML K_WWW M  &N_SMTHNG 0 COMMA  &M_SMTHNG 0 DOT  &HML STAR FSLH      &A_ACCTS 0 0
 &SH_EM_DASH TILDE 0  &kp LCTRL      &kp LEFT_ALT        &kp LEFT_WIN  &mo 6          &lt 4 SPACE  &mo 5                     &kp ENTER                      &lt 2 BACKSPACE                                                            &HML K_WWW STAR     &kp DELETE
             >;
