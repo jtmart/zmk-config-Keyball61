@@ -45,12 +45,12 @@ layers:
   - {t: B, h: '&Open_C_cal'}
   - {t: AL WORD, h: PgDn}
   - {t: AL TEXT EDITOR, h: PgUp}
-  - {t: N, h: '&Open_N_smthng'}
-  - {t: M, h: '&Open_M_smthng'}
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, h: AL SPREADSHEET, s: '?'}
-  - {t: RGB ON, h: RGB OFF}
+  - {t: N, h: AL SPREADSHEET}
+  - {t: M, h: WWW}
+  - {t: ',', h: '&Open_N_smthng', s: <}
+  - {t: ., h: '&Open_M_smthng', s: '>'}
+  - {t: /, h: '*', s: '?'}
+  - {t: '&A_grave', h: '&A_circ'}
   - {t: '&em_dash', h: '~'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
@@ -60,7 +60,7 @@ layers:
   - SCROLL
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: SYM}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '*', h: WWW}
   - $$mdi:backspace-reverse-outline$$
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
