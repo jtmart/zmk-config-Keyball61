@@ -3,10 +3,10 @@ layers:
   QWRT not Colemak:
   - {t: '`', h: '$$mdi:keyboard-esc$$', s: '~'}
   - {t: '1', h: '~', s: '!'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '2', h: '$$mdi:brightness-7$$', s: '@'}
+  - {t: '3', h: '$$mdi:brightness-5$$', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '8', h: MUTE, s: '*'}
@@ -23,7 +23,7 @@ layers:
   - {t: U, h: +}
   - {t: '=', h: I, s: +}
   - {t: O, h: '&Open_O_smthng'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: P, h: '&Pipe_operator'}
   - {t: \, h: Ins, s: '|'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: AC HOME}
   - {t: A, h: '&Open_A_smthng'}
@@ -35,8 +35,8 @@ layers:
   - {t: J, h: ']'}
   - {t: K, h: '{'}
   - {t: L, h: '}'}
-  - {t: ;, h: RGB BRD, s: ':'}
-  - {t: '''', h: RGB BRD, s: '"'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: '&Open_Z_smthng'}
   - {t: X, h: '&Open_X_smthng'}
@@ -50,8 +50,8 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: HOME, s: '?'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: RGB EFF, h: RGB EFR}
+  - {t: RGB ON, h: RGB OFF}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
@@ -61,7 +61,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: SYM}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:backspace-reverse-outline$$
+  - DELETE sensor
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
