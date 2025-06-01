@@ -633,11 +633,11 @@
         default_layer {
             label = "QWRT not Colemak";
             bindings = <
-&HML ESCAPE GRAVE        &HML TILDE N1  &trans                      &trans               &trans         &trans                                                               &trans               &trans                &HML K_MUTE N8     &HML N9 C_VOLUME_DOWN  &HML C_VOLUME_UP N0  &HML K_POWER K_SLEEP
-&kp TAB                  &HML F2 Q      &HML F11 W                  &BRWSR 0 E           &S_SMTHNG 0 R  &TRMNL 0 T                                                           &HML MINUS Y         &HML PLUS U           &HML I EQUAL       &O_SMTHNG 0 O          &trans               &HML INSERT BACKSLASH
-&HML C_AC_HOME CAPSLOCK  &A_SMTHNG 0 A  &HML LS(LG(PRINTSCREEN)) S  &SH_EM_DASH_REV 0 D  &F_SMTHNG 0 F  &G_SMTHNG 0 G                                                        &HML LEFT_BRACKET H  &HML RIGHT_BRACKET J  &HML LEFT_BRACE K  &HML RIGHT_BRACE L     &trans               &trans
-&kp LEFT_SHIFT           &Z_SMTHNG 0 Z  &X_SMTHNG 0 X               &CLBR 0 C            &V_SMTHNG 0 V  &B_SMTHNG 0 B  &BLTH_REV PAGE_DOWN BT_PRV  &BLTH_REV PAGE_UP BT_NXT  &N_SMTHNG 0 N        &M_SMTHNG 0 M         &kp COMMA          &kp DOT                &HML HOME FSLH       &RGB_DBL RGB_EFR RGB_EFF
-&RGB_DBL RGB_OFF RGB_ON  &kp LCTRL      &kp LEFT_ALT                &kp LEFT_WIN         &mo 6          &lt 4 SPACE    &mo 5                       &kp ENTER                 &lt 2 BACKSPACE                                                                      &trans               &kp DELETE sensor
+&HML ESCAPE GRAVE        &HML TILDE N1  &trans                      &trans               &trans         &trans                            &trans               &trans                &HML K_MUTE N8     &HML N9 C_VOLUME_DOWN  &HML C_VOLUME_UP N0  &HML K_POWER K_SLEEP
+&kp TAB                  &HML F2 Q      &HML F11 W                  &BRWSR 0 E           &S_SMTHNG 0 R  &TRMNL 0 T                        &HML MINUS Y         &HML PLUS U           &HML I EQUAL       &O_SMTHNG 0 O          &trans               &HML INSERT BACKSLASH
+&HML C_AC_HOME CAPSLOCK  &A_SMTHNG 0 A  &HML LS(LG(PRINTSCREEN)) S  &SH_EM_DASH_REV 0 D  &F_SMTHNG 0 F  &G_SMTHNG 0 G                     &HML LEFT_BRACKET H  &HML RIGHT_BRACKET J  &HML LEFT_BRACE K  &HML RIGHT_BRACE L     &trans               &trans
+&kp LEFT_SHIFT           &Z_SMTHNG 0 Z  &X_SMTHNG 0 X               &CLBR 0 C            &V_SMTHNG 0 V  &B_SMTHNG 0 B  &trans  &trans     &N_SMTHNG 0 N        &M_SMTHNG 0 M         &kp COMMA          &kp DOT                &HML HOME FSLH       &trans
+&trans                   &kp LCTRL      &kp LEFT_ALT                &kp LEFT_WIN         &mo 6          &lt 4 SPACE    &mo 5   &kp ENTER  &lt 2 BACKSPACE                                                                      &trans               &kp DELETE sensor
             >;
         };
 
