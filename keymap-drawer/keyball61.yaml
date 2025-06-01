@@ -25,18 +25,18 @@ layers:
   - {t: O, h: '&Open_O_smthng'}
   - {t: P, h: '&Pipe_operator'}
   - {t: \, h: Ins, s: '|'}
-  - $$mdi:apple-keyboard-caps$$
-  - A
-  - {t: S, h: PRINTSCREEN}
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: AC HOME}
+  - {t: A, h: '&Open_A_smthng'}
+  - {t: S, h: Sft+Gui+PRINTSCREEN}
+  - {t: D, h: '&em_dash'}
+  - {t: F, h: '&Open_F_smthng'}
+  - {t: G, h: '&Open_G_smthng'}
+  - {t: H, h: '['}
+  - {t: J, h: ']'}
+  - {t: K, h: '{'}
+  - {t: L, h: '}'}
+  - {t: ;, h: RGB BRD, s: ':'}
+  - {t: '''', h: RGB BRD, s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
