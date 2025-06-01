@@ -120,18 +120,6 @@
             bindings = <&kp>, <&em_dash>;
         };
 
-        PIPE_OPERATOR: PIPE_OPERATOR {
-            compatible = "zmk,behavior-hold-tap";
-            label = "PIPE_OPERATOR";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <175>;
-            flavor = "tap-preferred";
-            hold-trigger-on-release;
-            hold-trigger-key-positions = <0 12 24 36 50 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 42 50 51 52 53 54 55 56 57 58 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 42 50 51 52 53 54 55 56 57 58 22 5 6 7 8 9 10 11 17 18 19 20 21 22 23 29 30 31 32 33 34 35 41 42 43 44 45 46 47 48 49 55 56 57 58 59 60>;
-            bindings = <&Pipe_operator>, <&kp>;
-        };
-
         BCKL: BCKL {
             compatible = "zmk,behavior-hold-tap";
             label = "BCKL";
@@ -468,14 +456,6 @@
                 <&kp E>;
 
             label = "OPEN_BROWSER";
-        };
-
-        Pipe_operator: Pipe_operator {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp PIPE>, <&macro_tap>, <&kp GREATER_THAN>;
-
-            label = "PIPE_OPERATOR";
         };
 
         Open_S_smthng: Open_something {
