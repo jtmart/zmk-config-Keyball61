@@ -2,17 +2,17 @@ layout: {zmk_keyboard: keyball61}
 layers:
   QWRT not Colemak:
   - {t: '`', h: '$$mdi:keyboard-esc$$', s: '~'}
-  - {t: '1', h: '~', s: '!'}
-  - {t: '2', h: '$$mdi:brightness-7$$', s: '@'}
-  - {t: '3', h: '$$mdi:brightness-5$$', s: '#'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: '6', h: '&bl BL_DEC', s: ^}
-  - {t: '7', h: '&bl BL_INC', s: '&'}
-  - {t: '8', h: MUTE, s: '*'}
-  - {t: '$$mdi:volume-low$$', h: '9'}
-  - {t: '0', h: '$$mdi:volume-high$$', s: )}
-  - {t: SLEEP, h: POWER}
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: Q, h: F2}
   - {t: W, h: F11}
@@ -25,18 +25,18 @@ layers:
   - {t: O, h: '&Open_O_smthng'}
   - {t: P, h: '&Pipe_operator'}
   - {t: \, h: Ins, s: '|'}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: AC HOME}
-  - {t: A, h: '&Open_A_smthng'}
-  - {t: S, h: Sft+Gui+PRINTSCREEN}
-  - {t: D, h: '&em_dash'}
-  - {t: F, h: '&Open_F_smthng'}
-  - {t: G, h: '&Open_G_smthng'}
-  - {t: H, h: '['}
-  - {t: J, h: ']'}
-  - {t: K, h: '{'}
-  - {t: L, h: '}'}
-  - {t: ;, h: RGB BRD, s: ':'}
-  - {t: '''', h: RGB BRD, s: '"'}
+  - $$mdi:apple-keyboard-caps$$
+  - A
+  - {t: S, h: PRINTSCREEN}
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: '&Open_Z_smthng'}
   - {t: X, h: '&Open_X_smthng'}
@@ -51,7 +51,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, h: HOME, s: '?'}
   - {t: RGB EFF, h: RGB EFR}
-  - {t: RGB ON, h: RGB OFF}
+  - {t: '&em_dash', h: '~'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
@@ -60,7 +60,7 @@ layers:
   - SCROLL
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: SYM}
-  - {t: '$$mdi:apple-keyboard-option$$', h: PLAY PAUSE}
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:backspace-reverse-outline$$
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
