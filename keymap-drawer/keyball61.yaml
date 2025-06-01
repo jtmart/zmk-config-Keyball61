@@ -11,7 +11,7 @@ layers:
   - {t: '7', h: F7, s: '&'}
   - {t: '8', h: F8, s: '*'}
   - {t: '9', h: F9, s: (}
-  - {t: '0', s: )}
+  - {t: '0', h: PRINTSCREEN, s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - {t: Q, h: F11}
@@ -24,7 +24,7 @@ layers:
   - {t: I, h: '='}
   - {t: O, h: '&Open_O_smthng'}
   - {t: P, h: '&Pipe_operator'}
-  - {t: \, h: INS, s: '|'}
+  - {t: \, h: END, s: '|'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:keyboard-esc$$'}
   - {t: A, h: '&Open_A_smthng'}
   - {t: S, h: Sft+Gui+S}
