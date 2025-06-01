@@ -50,7 +50,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: AL SPREADSHEET, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: RGB ON, h: RGB OFF}
   - {t: '&em_dash', h: '~'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
