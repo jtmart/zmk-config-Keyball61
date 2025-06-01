@@ -50,8 +50,8 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: HOME, s: '?'}
-  - {t: RGB EFF, h: RGB EFR}
-  - {t: RGB ON, h: RGB OFF}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
