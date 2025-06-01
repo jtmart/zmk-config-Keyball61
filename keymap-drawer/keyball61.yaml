@@ -26,16 +26,16 @@ layers:
   - {t: P, h: '&Pipe_operator'}
   - {t: \, h: INS, s: '|'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:keyboard-esc$$'}
-  - A
-  - {t: S, h: PRINTSCREEN}
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
+  - {t: A, h: '&Open_A_smthng'}
+  - {t: S, h: Sft+Gui+S}
+  - {t: '&em_dash', h: D}
+  - {t: F, h: '&Open_F_smthng'}
+  - {t: G, h: '&Open_G_smthng'}
+  - {t: H, h: '['}
+  - {t: J, h: ']'}
+  - {t: '{', h: K}
+  - {t: '}', h: L}
+  - {t: ;, h: HOME, s: ':'}
   - {t: '''', h: '&E_aigu', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: '&Open_Z_smthng'}
