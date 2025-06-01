@@ -7,8 +7,8 @@ layers:
   - {t: '3', h: '$$mdi:brightness-5$$', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: '6', h: toggle, s: ^}
-  - {t: '7', h: toggle, s: '&'}
+  - {t: '6', h: '&bl BL_DEC', s: ^}
+  - {t: '7', h: '&bl BL_INC', s: '&'}
   - {t: '8', h: MUTE, s: '*'}
   - {t: '$$mdi:volume-low$$', h: '9'}
   - {t: '0', h: '$$mdi:volume-high$$', s: )}
