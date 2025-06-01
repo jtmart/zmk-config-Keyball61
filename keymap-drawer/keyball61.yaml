@@ -461,3 +461,19 @@ combos:
   k: {h: '5', s: '$$mdi:bluetooth-connect$$'}
 - p: [42, 43]
   k: {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+- p: [42, 41]
+  k: $$mdi:volume-high$$
+- p: [43, 44]
+  k: $$mdi:volume-low$$
+- p: [42, 41, 40]
+  k: $$mdi:brightness-7$$
+- p: [43, 44, 45]
+  k: $$mdi:brightness-5$$
+- p: [39, 40, 41, 42]
+  k: '&bl BL_DEC'
+- p: [43, 44, 45, 46]
+  k: '&bl BL_INC'
+- p: [38, 39, 40, 41, 42]
+  k: '&bl BL_OFF'
+- p: [43, 44, 45, 46, 47]
+  k: '&bl BL_ON'
