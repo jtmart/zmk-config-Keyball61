@@ -3,16 +3,16 @@ layers:
   QWRT not Colemak:
   - {t: '`', h: '$$mdi:keyboard-esc$$', s: '~'}
   - {t: '1', h: '~', s: '!'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '2', h: '$$mdi:brightness-7$$', s: '@'}
+  - {t: '3', h: '$$mdi:brightness-5$$', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', h: '&bl BL_DEC', s: ^}
+  - {t: '7', h: '&bl BL_INC', s: '&'}
+  - {t: '8', h: MUTE, s: '*'}
+  - {t: '$$mdi:volume-low$$', h: '9'}
+  - {t: '0', h: '$$mdi:volume-high$$', s: )}
+  - {t: SLEEP, h: POWER}
   - $$mdi:keyboard-tab$$
   - {t: Q, h: F2}
   - {t: W, h: F11}
@@ -23,11 +23,11 @@ layers:
   - {t: U, h: +}
   - {t: '=', h: I, s: +}
   - {t: O, h: '&Open_O_smthng'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: P, h: '&Pipe_operator'}
   - {t: \, h: Ins, s: '|'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: AC HOME}
   - {t: A, h: '&Open_A_smthng'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: S, h: Sft+Gui+PRINTSCREEN}
   - {t: D, h: '&em_dash'}
   - {t: F, h: '&Open_F_smthng'}
   - {t: G, h: '&Open_G_smthng'}
@@ -35,23 +35,23 @@ layers:
   - {t: J, h: ']'}
   - {t: K, h: '{'}
   - {t: L, h: '}'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ;, h: RGB BRD, s: ':'}
+  - {t: '''', h: RGB BRD, s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: '&Open_Z_smthng'}
   - {t: X, h: '&Open_X_smthng'}
   - {t: C, h: '&Open_C_cal'}
   - {t: V, h: '&Open_V_smthng'}
   - {t: B, h: '&Open_B_smthng'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {h: PgDn, s: '$$mdi:bluetooth-connect$$'}
+  - {h: PgUp, s: '$$mdi:bluetooth-connect$$'}
   - {t: N, h: '&Open_N_smthng'}
   - {t: M, h: '&Open_M_smthng'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: /, h: HOME, s: '?'}
+  - {t: RGB EFF, h: RGB EFR}
+  - {t: RGB ON, h: RGB OFF}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
@@ -60,8 +60,8 @@ layers:
   - SCROLL
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: SYM}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - DELETE sensor
+  - {t: '$$mdi:apple-keyboard-option$$', h: PLAY PAUSE}
+  - $$mdi:backspace-reverse-outline$$
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
