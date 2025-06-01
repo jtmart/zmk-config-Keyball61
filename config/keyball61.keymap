@@ -658,11 +658,11 @@
         default_layer {
             label = "QWRT not Colemak";
             bindings = <
-&HML ESCAPE GRAVE    &kp N1         &kp N2              &kp N3        &kp N4         &kp N5                                                     &kp N6           &kp N7       &kp N8        &kp N9         &kp N0              &kp BACKSPACE
-&kp TAB              &HML F2 Q      &HML F11 W          &BRWSR 0 E    &R_SMTHNG 0 R  &TRMNL 0 T                                                 &HML MINUS Y     &HML PLUS U  &HML EQUAL I  &O_SMTHNG 0 O  &PIPE_OPERATOR 0 P  &HML INS BACKSLASH
-&kp CAPSLOCK         &kp A          &HML PRINTSCREEN S  &kp D         &kp F          &kp G                                                      &kp H            &kp J        &kp K         &kp L          &kp SEMI            &kp SQT
-&kp LEFT_SHIFT       &Z_SMTHNG 0 Z  &X_SMTHNG 0 X       &CLBR 0 C     &V_SMTHNG 0 V  &CLBR 0 B    &BLTH_REV PAGE_DOWN BT_PRV  &BRWSR PAGE_UP 0  &kp N            &kp M        &kp COMMA     &kp DOT        &kp FSLH            &kp RIGHT_SHIFT
-&SH_EM_DASH TILDE 0  &kp LCTRL      &kp LEFT_ALT        &kp LEFT_WIN  &mo 6          &lt 4 SPACE  &mo 5                       &kp ENTER         &lt 2 BACKSPACE                                            &kp RIGHT_ALT       &kp DELETE
+&HML ESCAPE GRAVE    &kp N1         &kp N2              &kp N3        &kp N4         &kp N5                                                                &kp N6           &kp N7         &kp N8        &kp N9         &kp N0                      &kp BACKSPACE
+&kp TAB              &HML F2 Q      &HML F11 W          &BRWSR 0 E    &R_SMTHNG 0 R  &TRMNL 0 T                                                            &HML MINUS Y     &HML PLUS U    &HML EQUAL I  &O_SMTHNG 0 O  &PIPE_OPERATOR 0 P          &HML INS BACKSLASH
+&kp CAPSLOCK         &kp A          &HML PRINTSCREEN S  &kp D         &kp F          &kp G                                                                 &kp H            &kp J          &kp K         &kp L          &kp SEMI                    &kp SQT
+&kp LEFT_SHIFT       &Z_SMTHNG 0 Z  &X_SMTHNG 0 X       &CLBR 0 C     &V_SMTHNG 0 V  &CLBR 0 B    &HML PAGE_DOWN C_AL_WORD  &HML PAGE_UP C_AL_TEXT_EDITOR  &N_SMTHNG 0 N    &M_SMTHNG 0 M  &kp COMMA     &kp DOT        &HML C_AL_SPREADSHEET FSLH  &kp RIGHT_SHIFT
+&SH_EM_DASH TILDE 0  &kp LCTRL      &kp LEFT_ALT        &kp LEFT_WIN  &mo 6          &lt 4 SPACE  &mo 5                     &kp ENTER                      &lt 2 BACKSPACE                                              &kp RIGHT_ALT               &kp DELETE
             >;
 
             sensor-bindings =
