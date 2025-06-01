@@ -16,8 +16,8 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: Q, h: F2}
   - {t: W, h: F11}
-  - {t: E, h: '&Open_C_cal'}
-  - R
+  - {t: E, h: '&Open_E_browser'}
+  - {t: R, h: '&Open_R_smthng'}
   - {t: T, h: '&Open_terminal'}
   - Y
   - U
