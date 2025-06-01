@@ -16,27 +16,27 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: Q, h: F2}
   - {t: W, h: F11}
-  - {t: E, h: '&Open_E_browser'}
-  - {t: R, h: '&Open_S_smthng'}
+  - {t: E, h: '&Open_C_cal'}
+  - R
   - {t: T, h: '&Open_terminal'}
-  - {t: Y, h: '-'}
-  - {t: U, h: +}
-  - {t: '=', h: I, s: +}
-  - {t: O, h: '&Open_O_smthng'}
+  - Y
+  - U
+  - I
+  - O
   - {t: P, h: '&Pipe_operator'}
-  - {t: \, h: Ins, s: '|'}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: AC HOME}
-  - {t: A, h: '&Open_A_smthng'}
-  - {t: S, h: Sft+Gui+PRINTSCREEN}
-  - {t: D, h: '&em_dash'}
-  - {t: F, h: '&Open_F_smthng'}
-  - {t: G, h: '&Open_G_smthng'}
-  - {t: H, h: '['}
-  - {t: J, h: ']'}
-  - {t: K, h: '{'}
-  - {t: L, h: '}'}
-  - {t: ;, h: RGB BRD, s: ':'}
-  - {t: '''', h: RGB BRD, s: '"'}
+  - {t: \, s: '|'}
+  - $$mdi:apple-keyboard-caps$$
+  - A
+  - {t: S, h: PRINTSCREEN}
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
