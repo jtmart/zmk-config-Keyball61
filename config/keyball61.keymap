@@ -144,18 +144,6 @@
             bindings = <&bt>, <&kp>;
         };
 
-        RGB_SET: RGB_SET {
-            compatible = "zmk,behavior-hold-tap";
-            label = "RGB_SET";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <175>;
-            flavor = "tap-preferred";
-            hold-trigger-on-release;
-            hold-trigger-key-positions = <0 12 24 36 50 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 42 50 51 52 53 54 55 56 57 58 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 42 50 51 52 53 54 55 56 57 58 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 43 44 45 46 47 48 49 57 58 59 60>;
-            bindings = <&rgb_ug>, <&kp>;
-        };
-
         S_SMTHNG: S_SMTHNG {
             compatible = "zmk,behavior-hold-tap";
             label = "S_SMTHNG";
@@ -190,18 +178,6 @@
             hold-trigger-on-release;
             hold-trigger-key-positions = <0 12 24 36 50 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 42 50 51 52 53 54 55 56 57 58 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 42 50 51 52 53 54 55 56 57 58 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 42 43 44 45 46 47 48 49 56 57 58 59 60>;
             bindings = <&em_dash>, <&kp>;
-        };
-
-        RGB_ON_OFF: RGB_ON_OFF {
-            compatible = "zmk,behavior-hold-tap";
-            label = "RGB_ON_OFF";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <175>;
-            flavor = "tap-preferred";
-            hold-trigger-on-release;
-            hold-trigger-key-positions = <0 12 24 36 50 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 42 50 51 52 53 54 55 56 57 58 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 42 50 51 52 53 54 55 56 57 58 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 43 44 45 46 47 48 49 57 58 59 60>;
-            bindings = <&rgb_ug>, <&rgb_ug>;
         };
 
         A_SMTHNG: A_SMTHNG {
