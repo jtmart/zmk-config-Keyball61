@@ -3,8 +3,8 @@ layers:
   QWRT not Colemak:
   - {t: '`', h: '$$mdi:keyboard-esc$$', s: '~'}
   - {t: '1', h: '~', s: '!'}
-  - {t: '2', h: '$$mdi:brightness-7$$', s: '@'}
-  - {t: '3', h: '$$mdi:brightness-5$$', s: '#'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '$$mdi:transfer$$', type: trans}
