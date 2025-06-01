@@ -9,10 +9,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '8', h: MUTE, s: '*'}
-  - {t: '$$mdi:volume-low$$', h: '9'}
-  - {t: '0', h: '$$mdi:volume-high$$', s: )}
-  - {t: SLEEP, h: POWER}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
   - {t: Q, h: F2}
   - {t: W, h: F11}
@@ -27,7 +27,7 @@ layers:
   - {t: \, h: Ins, s: '|'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: AC HOME}
   - {t: A, h: '&Open_A_smthng'}
-  - {t: S, h: Sft+Gui+PRINTSCREEN}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: D, h: '&em_dash'}
   - {t: F, h: '&Open_F_smthng'}
   - {t: G, h: '&Open_G_smthng'}
@@ -49,7 +49,7 @@ layers:
   - {t: M, h: '&Open_M_smthng'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, h: HOME, s: '?'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
