@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: keyball61}
 layers:
-  QWRT not Colemak:
+  JT's QWRT:
   - {t: '`', h: '&E_grave', s: '~'}
   - {t: '1', h: F1, s: '!'}
   - {t: '2', h: F2, s: '@'}
