@@ -43,13 +43,13 @@ layers:
   - {t: C, h: '&Open_C_cal'}
   - {t: V, h: '&Open_V_smthng'}
   - {t: B, h: '&Open_C_cal'}
-  - {h: PgDn, s: '$$mdi:bluetooth-connect$$'}
-  - {t: '0', h: '&Open_E_browser PAGE_UP'}
-  - N
-  - M
+  - {t: AL WORD, h: PgDn}
+  - {t: AL TEXT EDITOR, h: PgUp}
+  - {t: N, h: '&Open_N_smthng'}
+  - {t: M, h: '&Open_M_smthng'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: /, h: AL SPREADSHEET, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '&em_dash', h: '~'}
   - $$mdi:apple-keyboard-control$$

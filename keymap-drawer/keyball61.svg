@@ -531,24 +531,30 @@ rect.held, rect.combo.held {
 <g transform="translate(364, 221)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-1.2em">AL</tspan><tspan x="0" dy="1.2em">WORD</tspan>
+</text>
 <text x="0" y="24" class="key hold">PgDn</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:bluetooth-connect"/>
 </g>
 <g transform="translate(532, 221)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">0</text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 60%">&amp;Open_E_b…</tspan></text>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-1.2em">AL</tspan><tspan x="0" dy="1.2em">TEXT</tspan><tspan x="0" dy="1.2em">EDITOR</tspan>
+</text>
+<text x="0" y="24" class="key hold">PgUp</text>
 </g>
 <g transform="translate(588, 221)" class="key keypos-44">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">N</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 60%">&amp;Open_N_s…</tspan></text>
 </g>
 <g transform="translate(644, 210)" class="key keypos-45">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">M</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 60%">&amp;Open_M_s…</tspan></text>
 </g>
 <g transform="translate(700, 196)" class="key keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -566,6 +572,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">/</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 60%">AL SPREAD…</tspan></text>
 <text x="0" y="-24" class="key shifted">?</text>
 </g>
 <g transform="translate(868, 224)" class="key keypos-49">
