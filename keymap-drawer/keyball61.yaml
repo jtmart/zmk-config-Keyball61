@@ -24,7 +24,7 @@ layers:
   - {t: I, h: '='}
   - {t: O, h: '&Open_O_smthng'}
   - {t: P, h: '&Pipe_operator'}
-  - {t: \, h: END, s: '|'}
+  - {t: \, h: BACKLIGHT TOGGLE, s: '|'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:keyboard-esc$$'}
   - {t: A, h: '&Open_A_smthng'}
   - {t: S, h: Sft+Gui+S}
