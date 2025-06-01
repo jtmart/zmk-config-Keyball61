@@ -447,6 +447,11 @@
             bindings = <&bt BT_SEL 4>;
             key-positions = <50 51 52>;
         };
+
+        Bluetooth_next {
+            bindings = <&bt BT_NXT>;
+            key-positions = <42 43>;
+        };
     };
 
     macros {
