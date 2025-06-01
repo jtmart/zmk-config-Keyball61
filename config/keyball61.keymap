@@ -801,11 +801,11 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kt TILDE       &kp EXCLAMATION    &kp AT_SIGN         &kp HASH              &kp DOLLAR            &kp PERCENT                    &kp CARET        &kp AMPERSAND    &kp ASTERISK                     &HML MINUS LEFT_PARENTHESIS       &HML PLUS RIGHT_PARENTHESIS        &bl BL_ON
-&kp K_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP     &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans                         &kp MINUS        &kp EQUAL        &kp LEFT_BRACKET                 &kp RIGHT_BRACKET                 &bl BL_TOG                         &bl BL_OFF
-&bt BT_CLR      &bt BT_SEL 0       &bt BT_SEL 1        &bt BT_SEL 2          &bt BT_SEL 3          &bt BT_SEL 4                   &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &rgb_ug RGB_TOG                  &rgb_ug RGB_BRD                   &rgb_ug RGB_BRI                    &bl BL_INC
-&bt BT_CLR_ALL  &bt BT_DISC 0      &bt BT_DISC 1       &bt BT_DISC 2         &bt BT_DISC 3         &bt BT_DISC 4  &trans  &trans  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(53,100,59)  &rgb_ug RGB_COLOR_HSB(222,100,50)  &bl BL_DEC
-&TD0            &kp C_REWIND       &kp C_FAST_FORWARD  &trans                &trans                &trans         &trans  &trans  &trans                                                                                               &rgb_ug RGB_COLOR_HSB(102,100,34)  &bl BL_CYCLE
+&kt TILDE      &kp EXCLAMATION    &kp AT_SIGN         &kp HASH       &kp DOLLAR            &kp PERCENT                     &kp CARET        &kp AMPERSAND    &kp ASTERISK                     &HML MINUS LEFT_PARENTHESIS       &HML PLUS RIGHT_PARENTHESIS        &bl BL_ON
+&bt BT_SEL 0   &bt BT_SEL 1       &bt BT_SEL 2        &bt BT_SEL 3   &bt BT_SEL 4          &bt BT_CLR                      &kp MINUS        &kp EQUAL        &kp LEFT_BRACKET                 &kp RIGHT_BRACKET                 &bl BL_TOG                         &bl BL_OFF
+&bt BT_DISC 0  &bt BT_DISC 1      &bt BT_DISC 2       &bt BT_DISC 3  &bt BT_DISC 4         &bt BT_CLR_ALL                  &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &rgb_ug RGB_TOG                  &rgb_ug RGB_BRD                   &rgb_ug RGB_BRI                    &bl BL_INC
+&kp K_MUTE     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP     &kp C_BRI_DEC  &kp C_BRIGHTNESS_INC  &trans          &trans  &trans  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(0,100,50)  &rgb_ug RGB_COLOR_HSB(53,100,59)  &rgb_ug RGB_COLOR_HSB(222,100,50)  &bl BL_DEC
+&TD0           &kp C_REWIND       &kp C_FAST_FORWARD  &trans         &trans                &trans          &trans  &trans  &trans                                                                                               &rgb_ug RGB_COLOR_HSB(102,100,34)  &bl BL_CYCLE
             >;
 
             sensor-bindings =
