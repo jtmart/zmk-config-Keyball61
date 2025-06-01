@@ -25,7 +25,7 @@ layers:
   - {t: O, h: '&Open_O_smthng'}
   - {t: P, h: '&Pipe_operator'}
   - {t: \, h: INS, s: '|'}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:keyboard-esc$$'}
   - A
   - {t: S, h: PRINTSCREEN}
   - D
@@ -60,7 +60,7 @@ layers:
   - SCROLL
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: SYM}
-  - {t: '*', h: WWW}
+  - {t: PLAY PAUSE, h: PIP}
   - $$mdi:backspace-reverse-outline$$
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
