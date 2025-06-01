@@ -7,8 +7,8 @@ layers:
   - {t: '3', h: '$$mdi:brightness-5$$', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: '6', h: '&bl BL_DEC', s: ^}
-  - {t: '7', h: '&bl BL_INC', s: '&'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '8', h: MUTE, s: '*'}
   - {t: '$$mdi:volume-low$$', h: '9'}
   - {t: '0', h: '$$mdi:volume-high$$', s: )}
@@ -50,8 +50,8 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: HOME, s: '?'}
-  - {t: RGB EFF, h: RGB EFR}
-  - {t: RGB ON, h: RGB OFF}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
